@@ -159,6 +159,76 @@
   .blockchain-feature h3 {
     color: var(--secondary-color);
   }
+
+  #feedback {
+  margin-top: 2em;
+}
+
+.form-group {
+  margin-bottom: 1em;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 0.5em;
+  margin-top: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 0.75em 1.5em;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+#team {
+  margin-top: 2em;
+}
+
+.team-members {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  text-align: center;
+  margin: 1em;
+  flex: 0 1 45%; /* Adjust the width of the columns */
+}
+
+.team-member img {
+  display: block;
+  margin: 0 auto 1em auto;
+  width: 100%;
+  height: auto;
+}
+
+.team-member h3 {
+  margin: 0.5em 0;
+  color: #4CAF50;
+}
+
+.team-member p {
+  color: #555;
+}
+
+
 </style>
 </head><body>
   <header>
@@ -203,7 +273,7 @@
           <p>Experience the joy and responsibility of pet ownership through our engaging GameFi elements. Feed, play, and care for your digital companion while learning valuable life lessons.</p>
         </div>
         <div class="feature-image">
-          <img src="https://images.websim.ai/v1/site/2/600" alt="Virtual pet care interface" width="500" height="667">
+          <img src="virtual-pet-care-interface.png" alt="Virtual pet care interface" width="500" height="667">
         </div>
       </div>
 
@@ -213,7 +283,7 @@
           <p>Connect with other pet lovers, share your pet's journey, and participate in exciting community events. Build your reputation and earn rewards through social engagement.</p>
         </div>
         <div class="feature-image">
-          <img src="https://images.websim.ai/v1/site/4/600" alt="SheliApp social feed" width="500" height="333">
+          <img src="sheli-app-social-feed.png" alt="SheliApp social feed" width="500" height="333">
         </div>
       </div>
     </section>
@@ -244,26 +314,57 @@
           <p>SheliApp addresses the challenge of educating children about pet responsibility in a fun and engaging way. Through daily tasks, simulated care, and social interactions, users learn valuable lessons about pet ownership and responsibility.</p>
         </div>
         <div class="feature-image">
-          <img src="https://images.websim.ai/v1/site/5/600" alt="Educational features of SheliApp" width="500" height="333">
+          <img src="educational-features.png" alt="Educational features of SheliApp" width="576" height="864">
         </div>
       </div>
     </section>
 
-    <section id="download" class="container">
+    <section id="team" class="container">
       <div class="feature-block">
         <div class="feature-content">
-          <h2>Ready to Join the SheliApp Community?</h2>
-          <p>Download now and start your journey of fun, learning, and responsibility in the world of virtual pets!</p>
-          <a href="#ios-download" class="cta-button">Download for iOS</a>
-          <a href="#android-download" class="cta-button">Download for Android</a>
-        </div>
-        <div class="feature-image">
-          <img src="https://images.websim.ai/v1/site/6/600" alt="SheliApp on mobile devices" width="500" height="333">
+          <h2>About Our Team</h2>
+          <div class="team-members">
+            <div class="team-member">
+              <img src="alexander-cherkashin.png" alt="Team Member 1" width="300" height="200">
+              <h3>Alexander Cherkashin</h3>
+              <p>Founder & CEO. Leading the vision and strategy behind SheliApp.</p>
+            </div>
+            <div class="team-member">
+              <img src="vitaliy-ayrapetyan.png" alt="Team Member 2" width="300" height="200">
+              <h3>Vitaliy Ayrapetyan</h3>
+              <p>Finance & Business Analyst. Managing the financial and business strategies of SheliApp.</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
-  </main>
 
+    <section id="feedback" class="container">
+      <div class="feature-block">
+        <div class="feature-content">
+          <h2>Leave Your Feedback</h2>
+          <form action="#" method="post">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="feedback">Feedback:</label>
+              <textarea id="feedback" name="feedback" rows="4" required></textarea>
+            </div>
+            <div class="form-group">
+              <button type="submit">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>    
+  </main>
+  
   <footer>
     <div class="container">
       <p>&copy; 2023 SheliApp. All rights reserved.</p>
