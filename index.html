@@ -1,4 +1,8 @@
-<html><head><base href="http://astrey-din-alt.github.io/sheli-app-website/" />
+<html><head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+  <base href="http://astrey-din-alt.github.io/sheli-app-website/" />
 <title>SheliApp - Revolutionizing Virtual Pet Care with GameFi and SocialFi</title>
 <style>
   :root {
@@ -56,11 +60,16 @@
   }
   
   .hero {
-    height: 100vh;
+    height: 30vh;
     display: flex;
     align-items: center;
-    background-image: "background.png";
+    background: linear-gradient(45deg, rgba(152, 255, 152, 0.8), rgba(106, 17, 203, 0.8)), 
+                url('background.png') no-repeat center center;
+    background-size: cover;
     position: relative;
+    color: white;
+    text-align: center;
+    padding: 2em;
   }
   
   .hero::before {
@@ -81,7 +90,18 @@
   }  
   
   h1 {
+    font-size: 72px;
+    margin-bottom: 20px;
+  }
+
+  h2 {
     font-size: 48px;
+    margin-bottom: 20px;
+    color: var(--primary-color);
+  }
+
+  h3 {
+    font-size: 32px;
     margin-bottom: 20px;
   }
   
@@ -103,7 +123,7 @@
   .feature-block {
     display: flex;
     align-items: center;
-    margin: 100px 0;
+    margin: 50px 0;
   }
   
   .feature-block:nth-child(even) {
@@ -126,12 +146,6 @@
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   }
   
-  h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
-    color: var(--primary-color);
-  }
-  
   footer {
     background-color: var(--text-color);
     color: var(--white);
@@ -142,10 +156,11 @@
   .blockchain-features {
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+    flex-wrap: nowrap; /* Prevent wrapping */
     margin-top: 30px;
+    /*overflow-x: auto; /* Add horizontal scroll for smaller screens */
   }
-  
+
   .blockchain-feature {
     background-color: var(--white);
     border-radius: 10px;
@@ -153,16 +168,23 @@
     margin: 10px;
     text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    flex-basis: calc(33% - 20px);
+    flex: 0 0 auto; /* Prevent shrinking and growing */
+    width: 30%; /* Adjust width to ensure all items fit in one line */
   }
-  
+
   .blockchain-feature h3 {
     color: var(--secondary-color);
+    margin-top: 10px; /* Add space between icon and heading */
+  }
+
+  .blockchain-feature i {
+    color: var(--secondary-color);
+    margin-bottom: 10px; /* Add space between icon and heading */
   }
 
   #feedback {
-  margin-top: 2em;
-}
+    margin-top: 2em;
+  }
 
 .form-group {
   margin-bottom: 1em;
@@ -228,13 +250,30 @@ button[type="submit"]:hover {
   color: #555;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  margin-right: 10px;
+}
+
+img.squeeze-image {
+  transform: scale(0.75); /* Scale down to 75% */
+  transform-origin: center center; /* Ensure the image scales from the center */
+}
 
 </style>
 </head><body>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
   <header>
     <div class="container">
       <nav>
-        <div class="logo">SheliApp</div>
+        <div class="logo">
+          <img src="logo.png" alt="SheliApp Logo" width="50" height="50"> SheliApp
+        </div>
         <div class="nav-links">
           <a href="#features">Features</a>
           <a href="#blockchain">Blockchain</a>
@@ -251,41 +290,43 @@ button[type="submit"]:hover {
     <section class="hero">
       <div class="container">
         <div class="hero-content">
-          <h1>SheliApp: Revolutionizing Virtual Pet Care with GameFi and SocialFi</h1>
-          <p>Create, care for, and share your virtual pets in a blockchain-powered world</p>
-          <a href="#application" class="cta-button">Start Your Pet Adventure</a>
+          <h1>SheliApp</h1>
+          <h3><p>Revolutionizing Virtual Pet Care with GameFi and SocialFi</p></h3>          
+          <a href="#application" class="cta-button">Start Your Pet Adventure in September</a>
         </div>
       </div>
     </section>
 
     <section id="features" class="container">
-      <div class="feature-block">
-        <div class="feature-content">
-          <h2>AI-Powered 3D Pet Creation</h2>
-          <p>Transform photos or drawings into vibrant 3D pet models using our advanced AI technology. Bring your imagination to life and create the pet of your dreams!</p>
+      <div class="owl-carousel owl-theme">
+        <div class="feature-block">
+          <div class="feature-content">
+            <h2>AI-Powered 3D Pet Creation</h2>
+            <p>Transform photos or drawings into vibrant 3D pet models using our advanced AI technology. Bring your imagination to life and create the pet of your dreams!</p>
+          </div>
+          <div class="feature-image">
+            <img src="ai-generated-3D-pet-model.png" alt="AI-generated 3D pet model" width="512" height="512">
+          </div>
         </div>
-        <div class="feature-image">
-          <img src="ai-generated-3D-pet-model.png" alt="AI-generated 3D pet model" width="465" height="333">
+    
+        <div class="feature-block">
+          <div class="feature-content">
+            <h2>Gamified Pet Care</h2>
+            <p>Experience the joy and responsibility of pet ownership through our engaging GameFi elements. Feed, play, and care for your digital companion while learning valuable life lessons.</p>
+          </div>
+          <div class="feature-image">
+            <img src="virtual-pet-care-interface.png" alt="Virtual pet care interface" width="512" height="512">
+          </div>
         </div>
-      </div>
-
-      <div class="feature-block">
-        <div class="feature-content">
-          <h2>Gamified Pet Care</h2>
-          <p>Experience the joy and responsibility of pet ownership through our engaging GameFi elements. Feed, play, and care for your digital companion while learning valuable life lessons.</p>
-        </div>
-        <div class="feature-image">
-          <img src="virtual-pet-care-interface.png" alt="Virtual pet care interface" width="500" height="667">
-        </div>
-      </div>
-
-      <div class="feature-block">
-        <div class="feature-content">
-          <h2>SocialFi Integration</h2>
-          <p>Connect with other pet lovers, share your pet's journey, and participate in exciting community events. Build your reputation and earn rewards through social engagement.</p>
-        </div>
-        <div class="feature-image">
-          <img src="sheli-app-social-feed.png" alt="SheliApp social feed" width="512" height="512">
+    
+        <div class="feature-block">
+          <div class="feature-content">
+            <h2>SocialFi Integration</h2>
+            <p>Connect with other pet lovers, share your pet's journey, and participate in exciting community events. Build your reputation and earn rewards through social engagement.</p>
+          </div>
+          <div class="feature-image">
+            <img src="sheli-app-social-feed.png" alt="SheliApp social feed" width="512" height="512">
+          </div>
         </div>
       </div>
     </section>
@@ -295,14 +336,17 @@ button[type="submit"]:hover {
       <p>SheliApp leverages blockchain to provide a secure, transparent, and rewarding experience:</p>
       <div class="blockchain-features">
         <div class="blockchain-feature">
+          <i class="fas fa-coins fa-3x"></i>
           <h3>SheliCoin</h3>
           <p>Earn and spend our in-app cryptocurrency through various activities and transactions.</p>
         </div>
         <div class="blockchain-feature">
+          <i class="fas fa-store fa-3x"></i>
           <h3>NFT Marketplace</h3>
           <p>Trade unique pet items, accessories, and even your custom-created pets as NFTs.</p>
         </div>
         <div class="blockchain-feature">
+          <i class="fas fa-file-contract fa-3x"></i>
           <h3>Smart Contracts</h3>
           <p>Enjoy transparent and fair gameplay mechanics powered by blockchain smart contracts.</p>
         </div>
@@ -316,7 +360,7 @@ button[type="submit"]:hover {
           <p>SheliApp addresses the challenge of educating children about pet responsibility in a fun and engaging way. Through daily tasks, simulated care, and social interactions, users learn valuable lessons about pet ownership and responsibility.</p>
         </div>
         <div class="feature-image">
-          <img src="educational-features.png" alt="Educational features of SheliApp" width="576" height="864">
+          <img src="educational-features.png" alt="Educational features of SheliApp" width="576" height="864" class="squeeze-image">
         </div>
       </div>
     </section>
@@ -373,4 +417,18 @@ button[type="submit"]:hover {
       <p>Coming Soon: Smartwatch integration for advanced pet care features!</p>
     </div>
   </footer>
+  <script>
+    $(document).ready(function(){
+      $(".owl-carousel").owlCarousel({
+        items: 1,
+        loop: true,
+        margin: 10,
+        nav: true,
+        dots: true,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        autoplayHoverPause: true
+      });
+    });
+  </script>
 </body></html>
