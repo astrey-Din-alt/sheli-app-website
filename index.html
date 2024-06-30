@@ -182,9 +182,9 @@
     margin-bottom: 10px; /* Add space between icon and heading */
   }
 
-  #feedback {
-    margin-top: 2em;
-  }
+  #join-our-team {
+  margin-top: 2em;
+}
 
 .form-group {
   margin-bottom: 1em;
@@ -193,33 +193,41 @@
 label {
   display: block;
   margin-bottom: 0.5em;
+  color: #333;
 }
 
 input[type="text"],
 input[type="email"],
 textarea {
   width: 100%;
-  padding: 0.5em;
-  margin-top: 0.5em;
+  padding: 0.75em;
+  margin-top: 0.25em;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
 
 button[type="submit"] {
-  background-color: #4CAF50;
+  background-color: #6a11cb;
   color: white;
   padding: 0.75em 1.5em;
   border: none;
-  border-radius: 4px;
+  border-radius: 5px;
   cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 button[type="submit"]:hover {
-  background-color: #45a049;
+  background-color: #5b0fb3;
 }
 
 #team {
   margin-top: 2em;
+}
+
+.feature-content h3 {
+  text-align: center;
+  color: #6a11cb; /* Primary color */
+  margin-bottom: 1em;
 }
 
 .team-members {
@@ -237,8 +245,10 @@ button[type="submit"]:hover {
 .team-member img {
   display: block;
   margin: 0 auto 1em auto;
-  width: 100%;
-  height: auto;
+  width: 150px; /* Adjust the size of the image */
+  height: 150px; /* Make the image square */
+  border-radius: 50%; /* Make the image round */
+  object-fit: cover; /* Ensure the image covers the entire circle */
 }
 
 .team-member h3 {
@@ -368,7 +378,7 @@ img.squeeze-image {
     <section id="team" class="container">
       <div class="feature-block">
         <div class="feature-content">
-          <h2>About Our Team</h2>
+          <h3>About Our Team</h3>
           <div class="team-members">
             <div class="team-member">
               <img src="alexander-cherkashin.jpg" alt="Team Member 1" width="640" height="640">
@@ -385,10 +395,11 @@ img.squeeze-image {
       </div>
     </section>
 
-    <section id="feedback" class="container">
+    <section id="join-our-team" class="container">
       <div class="feature-block">
         <div class="feature-content">
-          <h2>Leave Your Feedback</h2>
+          <h3>Join Our Team</h3>
+          <p>Do you want to try something new and make a significant impact? Join our team and become a Sheli Champion! By filling out the survey, you provide valuable insights and become a crucial part of our community. Together, we can create something amazing.</p>
           <form action="#" method="post">
             <div class="form-group">
               <label for="name">Name:</label>
@@ -399,8 +410,8 @@ img.squeeze-image {
               <input type="email" id="email" name="email" required>
             </div>
             <div class="form-group">
-              <label for="feedback-form">Feedback:</label>
-              <textarea id="feedback-form" name="feedback" rows="4" required></textarea>
+              <label for="survey-form">Survey:</label>
+              <textarea id="survey-form" name="survey" rows="4" required></textarea>
             </div>
             <div class="form-group">
               <button type="submit">Submit</button>
@@ -408,13 +419,12 @@ img.squeeze-image {
           </form>
         </div>
       </div>
-    </section>    
+    </section> 
   </main>
   
   <footer>
     <div class="container">
       <p>&copy; 2024 SheliApp. All rights reserved.</p>
-      <p>Coming Soon: Smartwatch integration for advanced pet care features!</p>
     </div>
   </footer>
   <script>
