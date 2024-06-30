@@ -107,6 +107,7 @@
     }
 
     .hero-content {
+      margin-top: 100px;
       position: relative;
       z-index: 1;
       color: var(--white);
@@ -153,14 +154,14 @@
     }
 
     .feature-block:nth-child(even) {
-      flex-direction: row-reverse;
+      flex-direction: row-reverse; /* Reverse the direction for even blocks on mobile */
     }
-    
+
     .feature-content {
       flex: 1;
       padding: 0 20px;
     }
-    
+
     .feature-image {
       flex: 1;
       text-align: center;
@@ -502,7 +503,7 @@
     <section id="join-our-team" class="container">
       <div class="feature-block">
         <div class="feature-content">
-          <h3>Join Our Team</h3>
+          <h2>Join Our Team</h2>
           <p>Do you want to try something new and make a significant impact? Join our team and become a Sheli Champion! By filling out the survey, you provide valuable insights and become a crucial part of our community. Together, we can create something amazing.</p>
           <form action="#" method="post">
             <div class="form-group">
