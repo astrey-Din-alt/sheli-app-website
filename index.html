@@ -76,7 +76,7 @@
   }
   
   .hero {
-    height: 30vh;
+    height: 40vh;
     display: flex;
     align-items: center;
     background: linear-gradient(45deg, rgba(152, 255, 152, 0.8), rgba(106, 17, 203, 0.8)), 
@@ -103,7 +103,36 @@
     z-index: 1;
     color: var(--white);
     text-align: center;
-  }  
+  }
+
+  #countdown {
+    font-size: 1.5em;
+    color: #ffffff;
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+  }
+
+  .countdown-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 0.5em 1em;
+    border-radius: 8px;
+  }
+
+  .countdown-item span {
+    font-size: 2em;
+    font-weight: bold;
+  }
+
+  .countdown-item label {
+    font-size: 0.75em;
+    text-transform: uppercase;
+    margin-top: 0.25em;
+  }
   
   h1 {
     font-size: 72px;
@@ -345,7 +374,8 @@ button[type="submit"]:hover {
         <div class="hero-content">
           <h1>SheliApp</h1>
           <h3><p>Revolutionizing Virtual Pet Care with GameFi and SocialFi</p></h3>          
-          <a href="#application" class="cta-button">Start Your Pet Adventure in September</a>
+          <a href="#application" class="cta-button">Start Your Pet Adventure in ...</a>
+          <div id="countdown"></div>
         </div>
       </div>
     </section>
@@ -497,6 +527,59 @@ button[type="submit"]:hover {
         autoplayHoverPause: true
       });
     });
+
+    document.addEventListener("DOMContentLoaded", function() {
+  // Set the date we're counting down to
+  var countDownDate = new Date("September 1, 2024 00:00:00").getTime();
+
+  // Update the count down every 1 second
+  var countdownFunction = setInterval(function() {
+
+    // Get today's date and time
+    var now = new Date().getTime();
+
+    // Find the distance between now and the count down date
+    var distance = countDownDate - now;
+
+    // Time calculations for months, days, hours, minutes, and seconds
+    var months = Math.floor(distance / (1000 * 60 * 60 * 24 * 30));
+    var days = Math.floor((distance % (1000 * 60 * 60 * 24 * 30)) / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    // Display the result in the element with id="countdown"
+    document.getElementById("countdown").innerHTML = `
+      <div class="countdown-item">
+        <span>${months}</span>
+        <label>Months</label>
+      </div>
+      <div class="countdown-item">
+        <span>${days}</span>
+        <label>Days</label>
+      </div>
+      <div class="countdown-item">
+        <span>${hours}</span>
+        <label>Hours</label>
+      </div>
+      <div class="countdown-item">
+        <span>${minutes}</span>
+        <label>Minutes</label>
+      </div>
+      <div class="countdown-item">
+        <span>${seconds}</span>
+        <label>Seconds</label>
+      </div>
+    `;
+
+    // If the count down is over, write some text 
+    if (distance < 0) {
+      clearInterval(countdownFunction);
+      document.getElementById("countdown").innerHTML = "EXPIRED";
+    }
+  }, 1000);
+});
+
   </script>
   <script type="application/ld+json">
     {
