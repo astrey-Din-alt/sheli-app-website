@@ -1,4 +1,7 @@
-<html><head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
   <meta name="description" content="SheliApp leverages blockchain technology to create an engaging experience of virtual pet care, combining elements of GameFi and SocialFi.">
   <meta name="keywords" content="SheliApp, virtual pets, GameFi, SocialFi, blockchain, pet care, AI technology">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,335 +22,364 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
   <base href="http://astrey-din-alt.github.io/sheli-app-website/" />
-<title>SheliApp - Revolutionizing Virtual Pet Care with GameFi and SocialFi</title>
-<style>
-  :root {
-    --primary-color: #6a11cb;
-    --secondary-color: #2575fc;
-    --accent-color: #ff6b6b;
-    --text-color: #333;
-    --background-color: #f8f9fa;
-    --white: #ffffff;
-  }
-  
-  body {
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: var(--background-color);
-    color: var(--text-color);
-  }
-  
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-  }
-  
-  header {
-    background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
-    color: var(--white);
-    padding: 20px 0;
-    position: fixed;
-    width: 100%;
-    z-index: 1000;
-  }
-  
-  nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .logo {
-    font-size: 24px;
-    font-weight: bold;
-  }
-  
-  .nav-links a {
-    color: var(--white);
-    text-decoration: none;
-    margin-left: 20px;
-    transition: opacity 0.3s;
-  }
-  
-  .nav-links a:hover {
-    opacity: 0.8;
-  }
-  
-  .hero {
-    height: 40vh;
-    display: flex;
-    align-items: center;
-    background: linear-gradient(45deg, rgba(152, 255, 152, 0.8), rgba(106, 17, 203, 0.8)), 
-                url('background.png') no-repeat center center;
-    background-size: cover;
-    position: relative;
-    color: white;
-    text-align: center;
-    padding: 2em;
-  }
-  
-  .hero::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
-  }
-  
-  .hero-content {
-    position: relative;
-    z-index: 1;
-    color: var(--white);
-    text-align: center;
-  }
+  <title>SheliApp - Revolutionizing Virtual Pet Care with GameFi and SocialFi</title>
+  <style>
+    :root {
+      --primary-color: #6a11cb;
+      --secondary-color: #2575fc;
+      --accent-color: #ff6b6b;
+      --text-color: #333;
+      --background-color: #f8f9fa;
+      --white: #ffffff;
+    }
+    
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: var(--background-color);
+      color: var(--text-color);
+      line-height: 1.6; /* Improve readability */
+    }
+    
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+    
+    header {
+      background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+      color: var(--white);
+      padding: 10px 0;
+      position: fixed;
+      width: 100%;
+      z-index: 1000;
+    }
+    
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
 
-  #countdown {
-    font-size: 1.5em;
-    color: #ffffff;
-    margin-top: 1em;
-    display: flex;
-    justify-content: center;
-    gap: 1em;
-  }
+    .logo {
+      font-size: 20px;
+      font-weight: bold;
+    }
+    
+    .nav-links {
+      display: flex;
+      flex-wrap: wrap; /* Allow links to wrap on small screens */
+    }
 
-  .countdown-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: rgba(255, 255, 255, 0.2);
-    padding: 0.5em 1em;
-    border-radius: 8px;
-  }
+    .nav-links a {
+      color: var(--white);
+      text-decoration: none;
+      margin-left: 10px; /* Reduce margin for better fit on small screens */
+      transition: opacity 0.3s;
+      font-size: 14px; /* Smaller font size for mobile */
+    }
+    
+    .nav-links a:hover {
+      opacity: 0.8;
+    }
+    
+    .hero {
+      height: auto; /* Allow height to adjust to content */
+      padding: 60px 20px; /* Add padding for better spacing */
+      text-align: center;
+      background: linear-gradient(45deg, rgba(152, 255, 152, 0.8), rgba(106, 17, 203, 0.8)), 
+                  url('background.png') no-repeat center center;
+      background-size: cover;
+      position: relative;
+      color: white;
+    }
+    
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+    }
+    
+    .hero-content {
+      position: relative;
+      z-index: 1;
+      color: var(--white);
+      text-align: center;
+      max-width: 100%; /* Ensure content fits within screen */
+    }
 
-  .countdown-item span {
-    font-size: 2em;
-    font-weight: bold;
-  }
+    #countdown {
+      font-size: 1.2em; /* Adjust font size for better fit */
+      color: #ffffff;
+      margin-top: 1em;
+      display: flex;
+      justify-content: center;
+      gap: 1em;
+      flex-wrap: wrap; /* Allow wrapping for better fit */
+    }
 
-  .countdown-item label {
-    font-size: 0.75em;
-    text-transform: uppercase;
-    margin-top: 0.25em;
-  }
-  
-  h1 {
-    font-size: 72px;
-    margin-bottom: 20px;
-  }
+    .countdown-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: rgba(255, 255, 255, 0.2);
+      padding: 0.5em 1em;
+      border-radius: 8px;
+      min-width: 70px; /* Ensure items have a minimum width */
+    }
 
-  h2 {
-    font-size: 48px;
-    margin-bottom: 20px;
-    color: var(--primary-color);
-  }
+    .countdown-item span {
+      font-size: 1.5em; /* Adjust font size for better fit */
+      font-weight: bold;
+    }
 
-  h3 {
-    font-size: 32px;
-    margin-bottom: 20px;
-  }
-  
-  .cta-button {
-    display: inline-block;
-    background-color: var(--accent-color);
-    color: var(--white);
-    padding: 12px 24px;
-    border-radius: 30px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: background-color 0.3s;
-  }
-  
-  .cta-button:hover {
-    background-color: #ff4757;
-  }
-  
-  .feature-block {
-    display: flex;
-    align-items: center;
-    margin: 50px 0;
-  }
-  
-  .feature-block:nth-child(even) {
-    flex-direction: row-reverse;
-  }
-  
-  .feature-content {
-    flex: 1;
-    padding: 0 50px;
-  }
-  
-  .feature-image {
-    flex: 1;
-    text-align: center;
-  }
-  
-  .feature-image img {
-    max-width: 100%;
-    border-radius: 10px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-  }
-  
-  footer {
-    background-color: var(--text-color);
-    color: var(--white);
-    text-align: center;
-    padding: 20px 0;
-  }
-  
-  .blockchain-features {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: nowrap; /* Prevent wrapping */
-    margin-top: 30px;
-    /*overflow-x: auto; /* Add horizontal scroll for smaller screens */
-  }
+    .countdown-item label {
+      font-size: 0.75em;
+      text-transform: uppercase;
+      margin-top: 0.25em;
+    }
+    
+    h1 {
+      font-size: 2em; /* Adjust for better fit on mobile */
+      margin-bottom: 10px;
+    }
 
-  .blockchain-feature {
-    background-color: var(--white);
-    border-radius: 10px;
-    padding: 20px;
-    margin: 10px;
-    text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    flex: 0 0 auto; /* Prevent shrinking and growing */
-    width: 30%; /* Adjust width to ensure all items fit in one line */
-  }
+    h2 {
+      font-size: 1.5em; /* Adjust for better fit on mobile */
+      margin-bottom: 10px;
+      color: var(--primary-color);
+    }
 
-  .blockchain-feature h3 {
-    color: var(--secondary-color);
-    margin-top: 10px; /* Add space between icon and heading */
-  }
+    h3 {
+      font-size: 1.25em;
+      margin-bottom: 10px;
+    }
+    
+    .cta-button {
+      display: inline-block;
+      background-color: var(--accent-color);
+      color: var(--white);
+      padding: 10px 20px; /* Reduce padding for better fit */
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+    
+    .cta-button:hover {
+      background-color: #ff4757;
+    }
+    
+    .feature-block {
+      display: flex;
+      align-items: center;
+      margin: 20px 0; /* Reduce margin for better fit */
+      flex-direction: column; /* Default to column layout for mobile */
+    }
+    
+    .feature-block:nth-child(even) {
+      flex-direction: row-reverse;
+    }
+    
+    .feature-content {
+      flex: 1;
+      padding: 0 20px;
+    }
+    
+    .feature-image {
+      flex: 1;
+      text-align: center;
+      padding: 20px;
+    }
+    
+    .feature-image img {
+      max-width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    }
+    
+    footer {
+      background-color: var(--text-color);
+      color: var(--white);
+      text-align: center;
+      padding: 20px 0;
+    }
+    
+    .blockchain-features {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-top: 30px;
+    }
 
-  .blockchain-feature i {
-    color: var(--secondary-color);
-    margin-bottom: 10px; /* Add space between icon and heading */
-  }
+    .blockchain-feature {
+      background-color: var(--white);
+      border-radius: 10px;
+      padding: 20px;
+      margin: 10px;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      flex: 1 1 30%;
+      max-width: 30%;
+    }
 
-  #join-our-team {
-  margin-top: 2em;
-}
+    .blockchain-feature h3 {
+      color: var(--secondary-color);
+      margin-top: 10px;
+    }
 
-.form-group {
-  margin-bottom: 1em;
-}
+    .blockchain-feature i {
+      color: var(--secondary-color);
+      margin-bottom: 10px;
+    }
 
-label {
-  display: block;
-  margin-bottom: 0.5em;
-  color: #333;
-}
+    #join-our-team {
+      margin-top: 2em;
+    }
 
-input[type="text"],
-input[type="email"],
-textarea {
-  width: 100%;
-  padding: 0.75em;
-  margin-top: 0.25em;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
+    .form-group {
+      margin-bottom: 1em;
+    }
 
-button[type="submit"] {
-  background-color: #6a11cb;
-  color: white;
-  padding: 0.75em 1.5em;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s, color 0.3s;
-}
+    label {
+      display: block;
+      margin-bottom: 0.5em;
+      color: #333;
+    }
 
-button[type="submit"]:hover {
-  background-color: #5b0fb3;
-}
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 0.75em;
+      margin-top: 0.25em;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
 
-#team {
-  margin-top: 2em;
-}
+    button[type="submit"] {
+      background-color: #6a11cb;
+      color: white;
+      padding: 0.75em 1.5em;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s, color 0.3s;
+    }
 
-.feature-content h3 {
-  text-align: center;
-  color: #6a11cb; /* Primary color */
-  margin-bottom: 1em;
-}
+    button[type="submit"]:hover {
+      background-color: #5b0fb3;
+    }
 
-.team-members {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
+    #team {
+      margin-top: 2em;
+    }
 
-.team-member {
-  text-align: center;
-  margin: 1em;
-  flex: 0 1 45%; /* Adjust the width of the columns */
-}
+    #team .feature-content h3 {
+      text-align: center;
+      color: #6a11cb;
+      margin-bottom: 1em;
+    }
 
-.team-member img {
-  display: block;
-  margin: 0 auto 1em auto;
-  width: 150px; /* Adjust the size of the image */
-  height: 150px; /* Make the image square */
-  border-radius: 50%; /* Make the image round */
-  object-fit: cover; /* Ensure the image covers the entire circle */
-}
+    .team-members {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
 
-.team-member h3 {
-  margin: 0.5em 0;
-  color: #4CAF50;
-}
+    .team-member {
+      text-align: center;
+      margin: 1em;
+      flex: 0 1 45%;
+    }
 
-.team-member p {
-  color: #555;
-}
+    .team-member img {
+      display: block;
+      margin: 0 auto 1em auto;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
 
-.logo {
-  display: flex;
-  align-items: center;
-}
+    .team-member h3 {
+      margin: 0.5em 0;
+      color: #4CAF50;
+    }
 
-.logo img {
-  margin-right: 10px;
-}
+    .team-member p {
+      color: #555;
+    }
 
-#social-media {
-  margin-top: 2em;
-  text-align: center;
-}
+    .logo {
+      display: flex;
+      align-items: center;
+    }
 
-#social-media h3 {
-  color: #6a11cb; /* Primary color */
-  margin-bottom: 1em;
-  font-size: 1.5em; /* Smaller font size for h3 */
-}
+    .logo img {
+      margin-right: 10px;
+    }
 
-.social-media-icons {
-  display: flex;
-  justify-content: center;
-  gap: 2em;
-}
+    #social-media {
+      margin-top: 2em;
+      text-align: center;
+    }
 
-.social-media-icons a {
-  color: #6a11cb; /* Primary color */
-  text-decoration: none;
-  font-size: 1.2em;
-  transition: color 0.3s;
-}
+    #social-media h3 {
+      color: #6a11cb;
+      margin-bottom: 1em;
+      font-size: 1.5em;
+    }
 
-.social-media-icons a:hover {
-  color: #5b0fb3; /* Darker shade of primary color for hover effect */
-}
+    .social-media-icons {
+      display: flex;
+      justify-content: center;
+      gap: 2em;
+    }
 
-.social-media-icons i {
-  margin-right: 0.5em;
-}
+    .social-media-icons a {
+      color: #6a11cb;
+      text-decoration: none;
+      font-size: 1.2em;
+      transition: color 0.3s;
+    }
 
-</style>
-</head><body>
+    .social-media-icons a:hover {
+      color: #5b0fb3;
+    }
+
+    .social-media-icons i {
+      margin-right: 0.5em;
+    }
+
+    @media (min-width: 768px) {
+      .hero {
+        height: 100vh;
+        padding: 20px;
+      }
+
+      .feature-block {
+        flex-direction: row;
+      }
+
+      .blockchain-feature {
+        flex: 0 1 30%;
+      }
+
+      .nav-links a {
+        margin-left: 20px;
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
   <header>
@@ -361,8 +393,8 @@ button[type="submit"]:hover {
           <a href="#blockchain">Blockchain</a>
           <a href="#education">Education</a>
           <a href="#team">Team</a>
-          <a href="join-our-team">Join our team</a>
-          <a href="social-media">Social media</a>          
+          <a href="#join-our-team">Join our team</a>
+          <a href="#social-media">Social media</a>          
         </div>
       </nav>
     </div>
@@ -454,12 +486,12 @@ button[type="submit"]:hover {
           <h3>About Our Team</h3>
           <div class="team-members">
             <div class="team-member">
-              <img src="alexander-cherkashin.jpg" alt="Team Member 1" width="640" height="640">
+              <img src="alexander-cherkashin.jpg" alt="Team Member 1" width="150" height="150">
               <h3>Alexander Cherkashin</h3>
               <p>Founder & CEO. Leading the vision and strategy behind SheliApp.</p>
             </div>
             <div class="team-member">
-              <img src="vitaliy-ayrapetyan.jpg" alt="Team Member 2" width="640" height="640">
+              <img src="vitaliy-ayrapetyan.jpg" alt="Team Member 2" width="150" height="150">
               <h3>Vitaliy Ayrapetyan</h3>
               <p>Finance & Business Analyst. Managing the financial and business strategies of SheliApp.</p>
             </div>
@@ -529,57 +561,55 @@ button[type="submit"]:hover {
     });
 
     document.addEventListener("DOMContentLoaded", function() {
-  // Set the date we're counting down to
-  var countDownDate = new Date("September 1, 2024 00:00:00").getTime();
+      // Set the date we're counting down to
+      var countDownDate = new Date("September 1, 2024 00:00:00").getTime();
 
-  // Update the count down every 1 second
-  var countdownFunction = setInterval(function() {
+      // Update the count down every 1 second
+      var countdownFunction = setInterval(function() {
+        // Get today's date and time
+        var now = new Date().getTime();
 
-    // Get today's date and time
-    var now = new Date().getTime();
+        // Find the distance between now and the count down date
+        var distance = countDownDate - now;
 
-    // Find the distance between now and the count down date
-    var distance = countDownDate - now;
+        // Time calculations for months, days, hours, minutes, and seconds
+        var months = Math.floor(distance / (1000 * 60 * 60 * 24 * 30));
+        var days = Math.floor((distance % (1000 * 60 * 60 * 24 * 30)) / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-    // Time calculations for months, days, hours, minutes, and seconds
-    var months = Math.floor(distance / (1000 * 60 * 60 * 24 * 30));
-    var days = Math.floor((distance % (1000 * 60 * 60 * 24 * 30)) / (1000 * 60 * 60 * 24));
-    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        // Display the result in the element with id="countdown"
+        document.getElementById("countdown").innerHTML = `
+          <div class="countdown-item">
+            <span>${months}</span>
+            <label>Months</label>
+          </div>
+          <div class="countdown-item">
+            <span>${days}</span>
+            <label>Days</label>
+          </div>
+          <div class="countdown-item">
+            <span>${hours}</span>
+            <label>Hours</label>
+          </div>
+          <div class="countdown-item">
+            <span>${minutes}</span>
+            <label>Minutes</label>
+          </div>
+          <div class="countdown-item">
+            <span>${seconds}</span>
+            <label>Seconds</label>
+          </div>
+        `;
 
-    // Display the result in the element with id="countdown"
-    document.getElementById("countdown").innerHTML = `
-      <div class="countdown-item">
-        <span>${months}</span>
-        <label>Months</label>
-      </div>
-      <div class="countdown-item">
-        <span>${days}</span>
-        <label>Days</label>
-      </div>
-      <div class="countdown-item">
-        <span>${hours}</span>
-        <label>Hours</label>
-      </div>
-      <div class="countdown-item">
-        <span>${minutes}</span>
-        <label>Minutes</label>
-      </div>
-      <div class="countdown-item">
-        <span>${seconds}</span>
-        <label>Seconds</label>
-      </div>
-    `;
-
-    // If the count down is over, write some text 
-    if (distance < 0) {
-      clearInterval(countdownFunction);
-      document.getElementById("countdown").innerHTML = "EXPIRED";
-    }
-  }, 1000);
-});
-
+        // If the count down is over, write some text 
+        if (distance < 0) {
+          clearInterval(countdownFunction);
+          document.getElementById("countdown").innerHTML = "EXPIRED";
+        }
+      }, 1000);
+    });
   </script>
   <script type="application/ld+json">
     {
@@ -595,5 +625,6 @@ button[type="submit"]:hover {
         "https://t.me/sheli_app"
       ]
     }
-    </script>
-</body></html>
+  </script>
+</body>
+</html>
