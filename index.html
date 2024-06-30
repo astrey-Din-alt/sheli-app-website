@@ -151,7 +151,7 @@
         <div class="feature-content">
           <h2>Join Our Team</h2>
           <p>Do you want to try something new and make a significant impact? Join our team and become a Sheli Champion! By filling out the survey, you provide valuable insights and become a crucial part of our community. Together, we can create something amazing.</p>
-          <form action="#" method="post">
+          <form action="https://formspree.io/f/xblrjljv" method="POST">
             <div class="form-group">
               <label for="name">Name:</label>
               <input type="text" id="name" name="name" required>
@@ -162,15 +162,17 @@
             </div>
             <div class="form-group">
               <label for="survey-form">Survey:</label>
-              <textarea id="survey-form" name="survey" rows="4" required></textarea>
+              <textarea id="survey-form" name="survey" rows="4" placeholder="We would love to know how you envision contributing to our project. Are you a developer, tester, designer, or perhaps a talented writer? Please, share with us how you would like to help and be a part of our journey." required></textarea>
             </div>
             <div class="form-group">
               <button type="submit">Submit</button>
             </div>
           </form>
+          <div id="form-success" style="display:none; color:green;">Thank you for joining our team! Your submission has been received.</div>
+          <div id="form-error" style="display:none; color:red;">Oops! There was an error. Please try again.</div>
         </div>
       </div>
-    </section> 
+    </section>
   </main>
 
   <section id="social-media" class="container">
@@ -256,6 +258,26 @@
         }
       }, 1000);
     });
+
+    document.getElementById('join-our-team-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+    var form = event.target;
+    var data = new FormData(form);
+    var xhr = new XMLHttpRequest();
+    xhr.open(form.method, form.action);
+    xhr.setRequestHeader('Accept', 'application/json');
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState !== XMLHttpRequest.DONE) return;
+      if (xhr.status === 200) {
+        form.reset();
+        document.getElementById('form-success').style.display = 'block';
+      } else {
+        document.getElementById('form-error').style.display = 'block';
+      }
+    };
+    xhr.send(data);
+  });
+
   </script>
   <script type="application/ld+json">
     {
