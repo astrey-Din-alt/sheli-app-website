@@ -60,7 +60,6 @@ nav {
 }
 
 .hero {
-  height: 100vh; /* Default to full height for mobile */
   padding: 60px 20px; /* Add padding for better spacing */
   text-align: center;
   background: linear-gradient(45deg, rgba(152, 255, 152, 0.8), rgba(106, 17, 203, 0.8)), 
@@ -333,7 +332,7 @@ button[type="submit"]:hover {
 
 @media (min-width: 768px) {
   .hero {
-    height: 30vh; /* Adjust height to 30% of the screen for desktop */
+    min-height: auto; /* Adjust height to 30% of the screen for desktop */
     padding: 20px;
   }
 
