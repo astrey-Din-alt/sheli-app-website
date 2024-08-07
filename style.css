@@ -267,7 +267,7 @@ button[type="submit"]:hover {
 .team-member {
   text-align: center;
   margin: 1em;
-  flex: 0 1 45%;
+  flex: 0 1 30%; /* Adjust the width of the columns */
 }
 
 .team-member img {
