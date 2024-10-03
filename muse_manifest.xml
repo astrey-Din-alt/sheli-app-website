@@ -1,0 +1,253 @@
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="sheli.app" resolutions="1x" timestamp="1727956004882">
+  <folder name="css">
+    <file name="site_global.css" crc="4017394297"/>
+    <file name="index.css" crc="4060066912" ref="index"/>
+  </folder>
+  <folder name="fonts">
+    <file name="noto-sans-regular.woff" crc="186988241"/>
+    <file name="noto-sans-regular.eot" crc="15825746"/>
+    <file name="noto-sans-regular.svg" crc="357805145"/>
+    <file name="inconsolata.woff" crc="4172388356"/>
+    <file name="inconsolata.eot" crc="3827858260"/>
+    <file name="inconsolata.svg" crc="414162296"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="phone>index:index"/>
+    <file name="museutils.js" crc="340535759" ref="phone>index:index"/>
+    <file name="whatinput.js" crc="86476730" ref="phone>index:index"/>
+    <file name="museconfig.js" crc="4286661555" ref="phone>index:index"/>
+    <file name="jquery.watch.js" crc="51536988" ref="phone>index:index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="phone>index:index"/>
+    <file name="webpro.js" crc="4059564322" ref="phone>index:index"/>
+    <file name="form_check.php" crc="4020933626" ref="phone>index:index"/>
+    <file name="form_throttle.php" crc="4259590256" ref="phone>index:index"/>
+    <file name="form_process.php" crc="37464564" ref="phone>index:index"/>
+    <file name="form-u11171.php" crc="4233125137" ref="phone>index"/>
+    <file name="jquery.scrolleffects.js" crc="39568856" ref="phone>index:index"/>
+    <file name="require.js" crc="7928878" ref="phone>index:index"/>
+    <file name="form-u1447.php" crc="3854509362" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="sheli-app-favicon.ico" crc="148466100" ref="phone>index:index"/>
+    <file name="vector 62.png" crc="4034552193" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="vector 63.png" crc="210654714" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="vector 64.png" crc="3837343491" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="2151420245 2 — копия.jpg" crc="169774212" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="alexander-cherkashin 2 2 (1)-u8572-fr.png" crc="3890528938" ref="phone>index"/>
+    <file name="vitaliy-ayrapetyan (1)-u9059-fr.png" crc="3991654425" ref="phone>index"/>
+    <file name="point section — копия.png" crc="4028886066" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="founder---ceo.svg" crc="3928345262" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="founder - ceo_poster_.png" crc="438273814" ref="phone>index:index"/>
+    <file name="business-analyst.svg" crc="3970718103" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="business analyst_poster_.png" crc="3888320481" ref="phone>index:index"/>
+    <file name="alex-lishchuk-u9201-fr.png" crc="311305412" ref="phone>index"/>
+    <file name="sofia-hnatenko (1)-u10063-fr.png" crc="481788049" ref="phone>index"/>
+    <file name="co-founder.svg" crc="3858410770" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="co-founder_poster_.png" crc="268603194" ref="phone>index:index"/>
+    <file name="smm.svg" crc="379876183" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="smm_poster_.png" crc="4161675714" ref="phone>index:index"/>
+    <file name="изображение whatsapp 2023-11-04 в 1401 1 3-u10069-fr.png" crc="3925953230" ref="phone>index"/>
+    <file name="vladimir-tereshonok-u10064-fr.png" crc="137840272" ref="phone>index"/>
+    <file name="frame-964.svg" crc="351614185" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="frame 964_poster_.png" crc="21609557" ref="phone>index:index"/>
+    <file name="frontend.svg" crc="3773229665" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="frontend_poster_.png" crc="3956043149" ref="phone>index:index"/>
+    <file name="img_4577 2-u10549-fr.png" crc="459603180" ref="phone>index"/>
+    <file name="img_20240112_183257_259 2-u10526-fr.png" crc="132324135" ref="phone>index"/>
+    <file name="38f1b9adb998611a9331c5247d2154b7.png" crc="4032421727" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="logo-txt.svg" crc="4270491946" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="logo txt_poster_.png" crc="414182512" ref="phone>index:index"/>
+    <file name="c03eed17102efe23a226c119bb806876.png" crc="4271740276" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="2e8f4f4bddb088351fef851238d343af — копия.png" crc="4269753836" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="2b16407d772155bb16fc94d1639454b7.png" crc="3771526811" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="contracts.svg" crc="324510035" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="contracts_poster_.png" crc="504294497" ref="phone>index:index"/>
+    <file name="shelicoin.svg" crc="152203393" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="shelicoin_poster_.png" crc="4119399028" ref="phone>index:index"/>
+    <file name="marketplace.svg" crc="3854640467" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="marketplace_poster_.png" crc="370614531" ref="phone>index:index"/>
+    <file name="vlad-zdrok-u10547-fr.png" crc="4140529501" ref="phone>index"/>
+    <file name="qa-general.svg" crc="3869291160" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="qa general_poster_.png" crc="188563932" ref="phone>index:index"/>
+    <file name="sergey-kichuk-u10951-fr.png" crc="503422862" ref="phone>index"/>
+    <file name="backend.svg" crc="4256500413" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="backend_poster_.png" crc="3929662654" ref="phone>index:index"/>
+    <file name="facebook-(1).svg" crc="333616020" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="facebook (1)_poster_.png" crc="3771875066" ref="phone>index:index"/>
+    <file name="telegram-(1).svg" crc="370745187" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="telegram (1)_poster_.png" crc="92751546" ref="phone>index:index"/>
+    <file name="youtube-(1).svg" crc="332409069" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="youtube (1)_poster_.png" crc="438357582" ref="phone>index:index"/>
+    <file name="instagram-(1).svg" crc="455637700" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="instagram (1)_poster_.png" crc="142716657" ref="phone>index:index"/>
+    <file name="linkedin.svg" crc="4151189491" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="linkedin_poster_.png" crc="384928923" ref="phone>index:index"/>
+    <file name="x-(twitter)-(1).svg" crc="506395900" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="x (twitter) (1)_poster_.png" crc="48771304" ref="phone>index:index"/>
+    <file name="2151420245 2.jpg" crc="4134456425" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="alexander-cherkashin 2 2 (1).png" crc="244245230" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="point section.png" crc="374363315" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="vitaliy-ayrapetyan (1).png" crc="202096430" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="point section2.png" crc="374363315" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="alex-lishchuk.png" crc="366318258" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="sofia-hnatenko (1).png" crc="4220419975" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="изображение whatsapp 2023-11-04 в 1401 1 3.png" crc="162518274" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="вставленные-svg-55x46.svg" crc="208402514" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="вставленные svg 55x46_poster_.png" crc="4145412834" ref="index"/>
+    <file name="vladimir-tereshonok.png" crc="246081916" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_4577 2.png" crc="4157045055" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_20240112_183257_259 2.png" crc="318509718" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="vlad-zdrok.png" crc="118706821" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="sergey-kichuk.png" crc="308265437" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="zondicons_arrow-up.svg" crc="3929450074" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="zondicons_arrow-up_poster_.png" crc="376891934" ref="index"/>
+    <file name="facebook (1).svg" crc="3762936275" ref="index"/>
+    <file name="facebook (1)_poster_u4651.png" crc="4169263583" ref="index"/>
+    <file name="facebook (2).svg" crc="174823740" ref="index"/>
+    <file name="facebook (2)_poster_u4699.png" crc="329380924" ref="index"/>
+    <file name="youtube (1).svg" crc="26821866" ref="index"/>
+    <file name="youtube (1)_poster_u4667.png" crc="3765754169" ref="index"/>
+    <file name="youtube (2).svg" crc="4189135822" ref="index"/>
+    <file name="youtube (2)_poster_u4715.png" crc="3945006916" ref="index"/>
+    <file name="instagram (1).svg" crc="11634327" ref="index"/>
+    <file name="instagram (1)_poster_u4683.png" crc="143040155" ref="index"/>
+    <file name="instagram (2).svg" crc="199766090" ref="index"/>
+    <file name="instagram (2)_poster_u4731.png" crc="4009594719" ref="index"/>
+    <file name="telegram (1).svg" crc="4153817567" ref="index"/>
+    <file name="telegram (1)_poster_u4659.png" crc="128715636" ref="index"/>
+    <file name="telegram (2).svg" crc="4122641199" ref="index"/>
+    <file name="telegram (2)_poster_u4707.png" crc="256184239" ref="index"/>
+    <file name="linkedin (2).svg" crc="4280975887" ref="index"/>
+    <file name="linkedin (2)_poster_u4675.png" crc="4283067837" ref="index"/>
+    <file name="linkedin (3).svg" crc="364910820" ref="index"/>
+    <file name="linkedin (3)_poster_u4723.png" crc="478647445" ref="index"/>
+    <file name="x (twitter) (1).svg" crc="175308245" ref="index"/>
+    <file name="x (twitter) (1)_poster_u4691.png" crc="182279988" ref="index"/>
+    <file name="x (twitter) (2).svg" crc="332305872" ref="index"/>
+    <file name="x (twitter) (2)_poster_u4739.png" crc="4256760046" ref="index"/>
+    <file name="2e8f4f4bddb088351fef851238d343af.png" crc="4090789166" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="vector 58.png" crc="3783104506" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="vector 57.png" crc="326969981" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="vector 56.png" crc="168728573" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+  </folder>
+  <folder name="phone">
+    <folder name="css">
+      <file name="index.css" crc="4192973500" ref="phone>index"/>
+    </folder>
+    <file name="index.html" crc="4009122490" seo="true" mt="1727909959043" redirect="true"/>
+  </folder>
+  <file name="index.html" crc="3995872663" seo="true" mt="1727955953359" redirect="true"/>
+</manifest>
