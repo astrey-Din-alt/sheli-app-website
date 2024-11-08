@@ -1,7 +1,7 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="sheli.app" resolutions="1x" timestamp="1727956004882">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="sheli.app" resolutions="1x" timestamp="1731008170722">
   <folder name="css">
-    <file name="site_global.css" crc="4017394297"/>
-    <file name="index.css" crc="4060066912" ref="index"/>
+    <file name="site_global.css" crc="3917270897"/>
+    <file name="index.css" crc="442011209" ref="index"/>
   </folder>
   <folder name="fonts">
     <file name="noto-sans-regular.woff" crc="186988241"/>
@@ -19,16 +19,16 @@
     <file name="jquery.watch.js" crc="51536988" ref="phone>index:index"/>
     <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="phone>index:index"/>
     <file name="webpro.js" crc="4059564322" ref="phone>index:index"/>
-    <file name="form_check.php" crc="4020933626" ref="phone>index:index"/>
-    <file name="form_throttle.php" crc="4259590256" ref="phone>index:index"/>
-    <file name="form_process.php" crc="37464564" ref="phone>index:index"/>
+    <file name="form_check.php" crc="4020933626" ref="phone>index"/>
+    <file name="form_throttle.php" crc="4259590256" ref="phone>index"/>
+    <file name="form_process.php" crc="37464564" ref="phone>index"/>
     <file name="form-u11171.php" crc="4233125137" ref="phone>index"/>
     <file name="jquery.scrolleffects.js" crc="39568856" ref="phone>index:index"/>
     <file name="require.js" crc="7928878" ref="phone>index:index"/>
     <file name="form-u1447.php" crc="3854509362" ref="index"/>
   </folder>
   <folder name="images">
-    <file name="sheli-app-favicon.ico" crc="148466100" ref="phone>index:index"/>
+    <file name="sheli-app-favicon.ico" crc="148466100" ref="phone>index"/>
     <file name="vector 62.png" crc="4034552193" seo="true" ref="phone>index">
       <caption webpage="index" alt=""/>
     </file>
@@ -52,50 +52,51 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
     </file>
     <file name="founder---ceo.svg" crc="3928345262" seo="true" ref="phone>index:index">
       <caption webpage="index" alt=""/>
-    </file>
-    <file name="founder - ceo_poster_.png" crc="438273814" ref="phone>index:index"/>
-    <file name="business-analyst.svg" crc="3970718103" seo="true" ref="phone>index:index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="business analyst_poster_.png" crc="3888320481" ref="phone>index:index"/>
+    <file name="founder - ceo_poster_.png" crc="438273814" ref="phone>index"/>
+    <file name="business-analyst.svg" crc="3970718103" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="business analyst_poster_.png" crc="3888320481" ref="phone>index"/>
     <file name="alex-lishchuk-u9201-fr.png" crc="311305412" ref="phone>index"/>
     <file name="sofia-hnatenko (1)-u10063-fr.png" crc="481788049" ref="phone>index"/>
     <file name="co-founder.svg" crc="3858410770" seo="true" ref="phone>index:index">
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
-    <file name="co-founder_poster_.png" crc="268603194" ref="phone>index:index"/>
+    <file name="co-founder_poster_.png" crc="268603194" ref="phone>index"/>
     <file name="smm.svg" crc="379876183" seo="true" ref="phone>index:index">
       <caption webpage="index" alt=""/>
-    </file>
-    <file name="smm_poster_.png" crc="4161675714" ref="phone>index:index"/>
-    <file name="изображение whatsapp 2023-11-04 в 1401 1 3-u10069-fr.png" crc="3925953230" ref="phone>index"/>
-    <file name="vladimir-tereshonok-u10064-fr.png" crc="137840272" ref="phone>index"/>
-    <file name="frame-964.svg" crc="351614185" seo="true" ref="phone>index:index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="frame 964_poster_.png" crc="21609557" ref="phone>index:index"/>
+    <file name="smm_poster_.png" crc="4161675714" ref="phone>index"/>
+    <file name="изображение whatsapp 2023-11-04 в 1401 1 3-u10069-fr.png" crc="3925953230" ref="phone>index"/>
+    <file name="frame-964.svg" crc="351614185" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="frame 964_poster_.png" crc="21609557" ref="phone>index"/>
     <file name="frontend.svg" crc="3773229665" seo="true" ref="phone>index:index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
     </file>
-    <file name="frontend_poster_.png" crc="3956043149" ref="phone>index:index"/>
+    <file name="frontend_poster_.png" crc="3956043149" ref="phone>index"/>
     <file name="img_4577 2-u10549-fr.png" crc="459603180" ref="phone>index"/>
-    <file name="img_20240112_183257_259 2-u10526-fr.png" crc="132324135" ref="phone>index"/>
     <file name="38f1b9adb998611a9331c5247d2154b7.png" crc="4032421727" seo="true" ref="phone>index:index">
       <caption webpage="index" alt=""/>
-    </file>
-    <file name="logo-txt.svg" crc="4270491946" seo="true" ref="phone>index:index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="logo txt_poster_.png" crc="414182512" ref="phone>index:index"/>
+    <file name="logo-txt.svg" crc="107437884" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="logo txt_poster_.png" crc="414182512" ref="phone>index"/>
     <file name="c03eed17102efe23a226c119bb806876.png" crc="4271740276" ref="phone>index:index">
       <caption webpage="index" alt=""/>
     </file>
@@ -104,53 +105,65 @@
     </file>
     <file name="2b16407d772155bb16fc94d1639454b7.png" crc="3771526811" seo="true" ref="phone>index:index">
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
     <file name="contracts.svg" crc="324510035" seo="true" ref="phone>index:index">
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
-    <file name="contracts_poster_.png" crc="504294497" ref="phone>index:index"/>
+    <file name="contracts_poster_.png" crc="504294497" ref="phone>index"/>
     <file name="shelicoin.svg" crc="152203393" seo="true" ref="phone>index:index">
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
-    <file name="shelicoin_poster_.png" crc="4119399028" ref="phone>index:index"/>
+    <file name="shelicoin_poster_.png" crc="230227149" ref="phone>index"/>
     <file name="marketplace.svg" crc="3854640467" seo="true" ref="phone>index:index">
       <caption webpage="index" alt=""/>
-    </file>
-    <file name="marketplace_poster_.png" crc="370614531" ref="phone>index:index"/>
-    <file name="vlad-zdrok-u10547-fr.png" crc="4140529501" ref="phone>index"/>
-    <file name="qa-general.svg" crc="3869291160" seo="true" ref="phone>index:index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="qa general_poster_.png" crc="188563932" ref="phone>index:index"/>
-    <file name="sergey-kichuk-u10951-fr.png" crc="503422862" ref="phone>index"/>
-    <file name="backend.svg" crc="4256500413" seo="true" ref="phone>index:index">
+    <file name="marketplace_poster_.png" crc="181672032" ref="phone>index"/>
+    <file name="qa-general.svg" crc="3869291160" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="backend_poster_.png" crc="3929662654" ref="phone>index:index"/>
+    <file name="qa general_poster_.png" crc="3830186946" ref="phone>index" seo="true">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="backend.svg" crc="4256500413" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="backend_poster_.png" crc="3929662654" ref="phone>index" seo="true">
+      <caption webpage="index" alt=""/>
+    </file>
     <file name="facebook-(1).svg" crc="333616020" seo="true" ref="phone>index:index">
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
-    <file name="facebook (1)_poster_.png" crc="3771875066" ref="phone>index:index"/>
+    <file name="facebook (1)_poster_.png" crc="3771875066" ref="phone>index"/>
     <file name="telegram-(1).svg" crc="370745187" seo="true" ref="phone>index:index">
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
-    <file name="telegram (1)_poster_.png" crc="92751546" ref="phone>index:index"/>
+    <file name="telegram (1)_poster_.png" crc="92751546" ref="phone>index"/>
     <file name="youtube-(1).svg" crc="332409069" seo="true" ref="phone>index:index">
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
-    <file name="youtube (1)_poster_.png" crc="438357582" ref="phone>index:index"/>
+    <file name="youtube (1)_poster_.png" crc="438357582" ref="phone>index"/>
     <file name="instagram-(1).svg" crc="455637700" seo="true" ref="phone>index:index">
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
-    <file name="instagram (1)_poster_.png" crc="142716657" ref="phone>index:index"/>
+    <file name="instagram (1)_poster_.png" crc="142716657" ref="phone>index"/>
     <file name="linkedin.svg" crc="4151189491" seo="true" ref="phone>index:index">
       <caption webpage="index" alt=""/>
-    </file>
-    <file name="linkedin_poster_.png" crc="384928923" ref="phone>index:index"/>
-    <file name="x-(twitter)-(1).svg" crc="506395900" seo="true" ref="phone>index:index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="x (twitter) (1)_poster_.png" crc="48771304" ref="phone>index:index"/>
+    <file name="linkedin_poster_.png" crc="384928923" ref="phone>index"/>
+    <file name="x-(twitter)-(1).svg" crc="506395900" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="x (twitter) (1)_poster_.png" crc="48771304" ref="phone>index"/>
     <file name="2151420245 2.jpg" crc="4134456425" ref="index">
       <caption webpage="index" alt=""/>
     </file>
@@ -162,13 +175,11 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
     </file>
     <file name="vitaliy-ayrapetyan (1).png" crc="202096430" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="point section2.png" crc="374363315" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -187,13 +198,7 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="вставленные svg 55x46_poster_.png" crc="4145412834" ref="index"/>
-    <file name="vladimir-tereshonok.png" crc="246081916" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
     <file name="img_4577 2.png" crc="4157045055" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="img_20240112_183257_259 2.png" crc="318509718" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="vlad-zdrok.png" crc="118706821" ref="index">
@@ -242,12 +247,28 @@
     <file name="vector 56.png" crc="168728573" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
+    <file name="sergey-kichuk-u10064-fr.png" crc="503422862" ref="phone>index"/>
+    <file name="vlad-zdrok-u10526-fr.png" crc="4140529501" ref="phone>index"/>
+    <file name="qip shot - screen 1376.png" crc="4131869370" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="qip shot - screen 1377.png" crc="4038030944" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="backend_poster_2.png" crc="4095959614" ref="index"/>
+    <file name="qa general_poster_2.png" crc="46660043" ref="index"/>
+    <file name="logo-txt2.svg" crc="4270491946" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="logo txt_poster_2.png" crc="414182512" ref="index"/>
   </folder>
   <folder name="phone">
     <folder name="css">
-      <file name="index.css" crc="4192973500" ref="phone>index"/>
+      <file name="index.css" crc="3866140309" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="4009122490" seo="true" mt="1727909959043" redirect="true"/>
+    <file name="index.html" crc="513482261" seo="true" mt="1731008141972" redirect="true"/>
   </folder>
-  <file name="index.html" crc="3995872663" seo="true" mt="1727955953359" redirect="true"/>
+  <file name="index.html" crc="4110244104" seo="true" mt="1731008125841" redirect="true"/>
 </manifest>
