@@ -1,7 +1,7 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="sheli.app" resolutions="1x" timestamp="1731008170722">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="sheli.app" resolutions="1x" timestamp="1733124880600">
   <folder name="css">
-    <file name="site_global.css" crc="3917270897"/>
-    <file name="index.css" crc="442011209" ref="index"/>
+    <file name="site_global.css" crc="4017394297"/>
+    <file name="index.css" crc="4200358050" ref="index"/>
   </folder>
   <folder name="fonts">
     <file name="noto-sans-regular.woff" crc="186988241"/>
@@ -26,6 +26,9 @@
     <file name="jquery.scrolleffects.js" crc="39568856" ref="phone>index:index"/>
     <file name="require.js" crc="7928878" ref="phone>index:index"/>
     <file name="form-u1447.php" crc="3854509362" ref="index"/>
+    <file name="musewpslideshow.js" crc="3862962738" ref="index:phone>index"/>
+    <file name="jquery.museoverlay.js" crc="4147669564" ref="index:phone>index"/>
+    <file name="touchswipe.js" crc="4075097462" ref="index:phone>index"/>
   </folder>
   <folder name="images">
     <file name="sheli-app-favicon.ico" crc="148466100" ref="phone>index"/>
@@ -44,7 +47,6 @@
     <file name="alexander-cherkashin 2 2 (1)-u8572-fr.png" crc="3890528938" ref="phone>index"/>
     <file name="vitaliy-ayrapetyan (1)-u9059-fr.png" crc="3991654425" ref="phone>index"/>
     <file name="point section — копия.png" crc="4028886066" seo="true" ref="phone>index">
-      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -97,16 +99,6 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="logo txt_poster_.png" crc="414182512" ref="phone>index"/>
-    <file name="c03eed17102efe23a226c119bb806876.png" crc="4271740276" ref="phone>index:index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="2e8f4f4bddb088351fef851238d343af — копия.png" crc="4269753836" seo="true" ref="phone>index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="2b16407d772155bb16fc94d1639454b7.png" crc="3771526811" seo="true" ref="phone>index:index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
     <file name="contracts.svg" crc="324510035" seo="true" ref="phone>index:index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -126,12 +118,6 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="qa general_poster_.png" crc="3830186946" ref="phone>index" seo="true">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="backend.svg" crc="4256500413" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="backend_poster_.png" crc="3929662654" ref="phone>index" seo="true">
       <caption webpage="index" alt=""/>
     </file>
     <file name="facebook-(1).svg" crc="333616020" seo="true" ref="phone>index:index">
@@ -183,7 +169,6 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
     </file>
     <file name="alex-lishchuk.png" crc="366318258" ref="index">
       <caption webpage="index" alt=""/>
@@ -202,9 +187,6 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="vlad-zdrok.png" crc="118706821" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="sergey-kichuk.png" crc="308265437" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="zondicons_arrow-up.svg" crc="3929450074" seo="true" ref="index">
@@ -235,9 +217,6 @@
     <file name="x (twitter) (1)_poster_u4691.png" crc="182279988" ref="index"/>
     <file name="x (twitter) (2).svg" crc="332305872" ref="index"/>
     <file name="x (twitter) (2)_poster_u4739.png" crc="4256760046" ref="index"/>
-    <file name="2e8f4f4bddb088351fef851238d343af.png" crc="4090789166" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
     <file name="vector 58.png" crc="3783104506" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
@@ -247,8 +226,6 @@
     <file name="vector 56.png" crc="168728573" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="sergey-kichuk-u10064-fr.png" crc="503422862" ref="phone>index"/>
-    <file name="vlad-zdrok-u10526-fr.png" crc="4140529501" ref="phone>index"/>
     <file name="qip shot - screen 1376.png" crc="4131869370" ref="phone>index:index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -257,18 +234,28 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="backend_poster_2.png" crc="4095959614" ref="index"/>
     <file name="qa general_poster_2.png" crc="46660043" ref="index"/>
     <file name="logo-txt2.svg" crc="4270491946" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="logo txt_poster_2.png" crc="414182512" ref="index"/>
+    <file name="main banner 1.png" crc="3876277314" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="telegram (3).svg" crc="3814795797" ref="index:phone>index"/>
+    <file name="telegram (3)_poster_u12329.png" crc="13051803" ref="index:phone>index"/>
+    <file name="streamline_web.svg" crc="4020415426" ref="index:phone>index"/>
+    <file name="streamline_web_poster_u12294.png" crc="446670375" ref="index:phone>index"/>
+    <file name="main banner 2 1.png" crc="4228817637" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="vlad-zdrok-u10064-fr.png" crc="4140529501" ref="phone>index"/>
   </folder>
   <folder name="phone">
     <folder name="css">
-      <file name="index.css" crc="3866140309" ref="phone>index"/>
+      <file name="index.css" crc="325245557" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="513482261" seo="true" mt="1731008141972" redirect="true"/>
+    <file name="index.html" crc="3921472661" seo="true" mt="1733124768331" redirect="true"/>
   </folder>
-  <file name="index.html" crc="4110244104" seo="true" mt="1731008125841" redirect="true"/>
+  <file name="index.html" crc="464296066" seo="true" mt="1733124644577" redirect="true"/>
 </manifest>

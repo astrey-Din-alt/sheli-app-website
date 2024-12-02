@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://sheli.app/index.html</loc>
-    <lastmod>2024-11-07</lastmod>
+    <lastmod>2024-12-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://sheli.app/phone/index.html"/>
@@ -28,9 +28,6 @@
       <image:loc>http://sheli.app/images/38f1b9adb998611a9331c5247d2154b7.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://sheli.app/images/2b16407d772155bb16fc94d1639454b7.png</image:loc>
-    </image:image>
-    <image:image>
       <image:loc>http://sheli.app/images/contracts.svg</image:loc>
     </image:image>
     <image:image>
@@ -41,9 +38,6 @@
     </image:image>
     <image:image>
       <image:loc>http://sheli.app/images/qa-general.svg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://sheli.app/images/backend.svg</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://sheli.app/images/facebook-(1).svg</image:loc>
